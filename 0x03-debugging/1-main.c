@@ -1,24 +1,13 @@
-#include <stdio.h>
+#include "main.h"
 
 /**
- * main - causes an infinite loop
- * Return: 0
+ * mul - multiplies 2 nums
+ * @a: first param
+ * @b: second param
+ * Return: something
  */
 
-int main(void)
+int mul(int a, int b)
 {
-	int i;
-
-	printf("infinite loop incoming :(\n");
-
-	i = 0;
-	/**
-	 * while (i <)
-	 *{
-	 *       putchar(i);
-	 *}
-	 */
-	printf("infinite loop avoided: \\o/\n");
-
-	return (0);
+	return (a * b);
 }
